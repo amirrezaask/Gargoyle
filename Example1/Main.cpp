@@ -1,7 +1,6 @@
 #include "Engine.h";
 
-void main() {
+Engine::Application* Engine::CreateApplication() {
 	auto engine = new Engine::Application();
-
-	engine->SimplePrint();
+	return engine;
 }

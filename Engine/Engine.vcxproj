@@ -134,6 +134,7 @@
     <ClInclude Include="Engine.h" />
     <ClInclude Include="src\Application.h" />
     <ClInclude Include="src\Core.h" />
+    <ClInclude Include="src\Entrypoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Application.cpp" />

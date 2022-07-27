@@ -10,5 +10,8 @@ namespace Engine
 		virtual ~Application();
 		void SimplePrint();
 	};
+
+
+	Application* CreateApplication();
 }
 
